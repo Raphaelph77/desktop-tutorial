@@ -1,0 +1,44 @@
+/* Estilização do corpo */
+body {
+    font-family: sans-serif;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Estilização do formulário */
+  form {
+    background: #fff;
+    padding: 15px;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  /* Estilização do título */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Estilização dos parágrafos */
+  p {
+    margin: 10px 0 5px;
+  }
+  
+  /* Estilização dos campos de entrada e select */
+  input,
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  /* Estilização do botão */
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #0077cc;
+    color: #fff;
+    border: none;
+  }
+  

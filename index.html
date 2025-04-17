@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Atendimento</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+  <form id="formAtendimento">
+    <h2>Formulário de Atendimento</h2>
+
+    <p>Nome completo do cliente:</p>
+    <input type="text" id="nome" required>
+
+    <p>CPF:</p>
+    <input type="text" id="cpf" placeholder="000.000.000-00" required>
+
+    <p>Tipo de corte desejado:</p>
+    <select id="servico" required>
+      <option value="">Selecione uma opção</option>
+      <option value="corte">Corte de cabelo</option>
+      <option value="corte_barba">Corte + barba</option>
+      <option value="barba">Barba</option>
+    </select>
+
+    <p>Data do atendimento:</p>
+    <input type="date" id="data" required>
+
+    <p>Atendimento quinzenal?</p>
+    <input type="radio" name="quinzenal" value="sim" required> Sim
+    <input type="radio" name="quinzenal" value="nao"> Não
+
+    <button type="submit">Confirmar Atendimento</button>
+  </form>
+
+  <script src="java.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
